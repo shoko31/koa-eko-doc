@@ -1,0 +1,44 @@
+{
+  "name": "koa-eko-doc",
+  "version": "1.0.1",
+  "description": "Documentation generation for koa-eko",
+  "main": "dist/index.js",
+  "scripts": {
+	"build": "tsc",
+	"prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chocoderme/koa-eko-doc.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-eko",
+    "koa-eko-doc",
+    "documentation",
+    "autodoc"
+  ],
+  "author": "Elliott Zwertvaegher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chocoderme/koa-eko-doc/issues"
+  },
+  "homepage": "https://github.com/Chocoderme/koa-eko-doc#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "reflect-metadata": "^0.1.12",
+    "sequelize": "^4.38.0",
+    "sequelize-typescript": "^0.6.5",
+    "koa-eko": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.4",
+    "@types/reflect-metadata": "^0.1.0",
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.28",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.2"
+  }
+}
