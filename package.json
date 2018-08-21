@@ -4,8 +4,8 @@
   "description": "Documentation generation for koa-eko",
   "main": "dist/index.js",
   "scripts": {
-	"build": "tsc",
-	"prepare": "npm run build",
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
