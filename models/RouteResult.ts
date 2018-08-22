@@ -90,7 +90,7 @@ export const MethodNotAllowed:RouteResult = new RouteResult({code: 405, title: "
 // tslint:disable-next-line:max-line-length
 export const NotAcceptable:RouteResult = new RouteResult({code: 406, title: "Not Acceptable", description: "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.", type: RouteResultType.Error });
 // tslint:disable-next-line:max-line-length
-export const BadProxyAuthenticationRequiredRequest:RouteResult = new RouteResult({code: 407, title: "Proxy Authentication Required", description: "The client must first authenticate itself with the proxy.", type: RouteResultType.Error });
+export const ProxyAuthenticationRequired:RouteResult = new RouteResult({code: 407, title: "Proxy Authentication Required", description: "The client must first authenticate itself with the proxy.", type: RouteResultType.Error });
 // tslint:disable-next-line:max-line-length
 export const RequestTimeout:RouteResult = new RouteResult({code: 408, title: "Request Timeout", description: "The server timed out waiting for the request.", type: RouteResultType.Error });
 // tslint:disable-next-line:max-line-length

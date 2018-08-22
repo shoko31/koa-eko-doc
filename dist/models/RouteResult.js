@@ -81,7 +81,7 @@ exports.MethodNotAllowed = new RouteResult({ code: 405, title: "Method Not Allow
 // tslint:disable-next-line:max-line-length
 exports.NotAcceptable = new RouteResult({ code: 406, title: "Not Acceptable", description: "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.", type: RouteResultType.Error });
 // tslint:disable-next-line:max-line-length
-exports.BadProxyAuthenticationRequiredRequest = new RouteResult({ code: 407, title: "Proxy Authentication Required", description: "The client must first authenticate itself with the proxy.", type: RouteResultType.Error });
+exports.ProxyAuthenticationRequired = new RouteResult({ code: 407, title: "Proxy Authentication Required", description: "The client must first authenticate itself with the proxy.", type: RouteResultType.Error });
 // tslint:disable-next-line:max-line-length
 exports.RequestTimeout = new RouteResult({ code: 408, title: "Request Timeout", description: "The server timed out waiting for the request.", type: RouteResultType.Error });
 // tslint:disable-next-line:max-line-length
