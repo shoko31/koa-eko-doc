@@ -2,7 +2,7 @@
 Documentation generation for koa-eko
 
 # What is KoaEko Doc ?
-KoaEko is [**koa**](https://koajs.com/) module allowing you to generate koa-router controllers using decorators
+KoaEko Doc is [**koa**](https://koajs.com/) module allowing you to generate an online KoaEko documentation using decorators
 
 # Dependencies
 KoaEko was built using multiple packages:
